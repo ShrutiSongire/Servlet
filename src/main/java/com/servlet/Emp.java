@@ -72,39 +72,25 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 	  
 	  PrintWriter out = response.getWriter();
 
-	  out.println("<html>");
-	  out.println("<head><title>Employee Details</title>");
-	  out.println("<style>");
-	  out.println("table { width: 50%; margin: auto; border-collapse: collapse; font-family: Arial; }");
-	  out.println("th, td { padding: 10px; text-align: left; border-bottom: 1px solid #ddd; }");
-	  out.println("h1 { text-align: center; font-family: Arial; color: #333; }");
-	  out.println("</style>");
-	  out.println("</head>");
-	  out.println("<body>");
-
-	  out.println("<h1>Employee Details</h1>");
-	  out.println("<table>");
-	  out.println("<tr><th>ID</th><td>" + id11 + "</td></tr>");
-	  out.println("<tr><th>Name</th><td>" + name1 + "</td></tr>");
-	  out.println("<tr><th>Email</th><td>" + email1 + "</td></tr>");
-	  out.println("<tr><th>Phone no. :</th><td>" + empPhone1 + "</td></tr>");
-	  out.println("<tr><th>Department :</th><td>" + empDept1 + "</td></tr>");
-	  out.println("<tr><th>Position :</th><td>" + empPosition1 + "</td></tr>");
-	  out.println("<tr><th>Salary :</th><td>" + empSalary1 + "</td></tr>");
-	  out.println("<tr><th>DOB :</th><td>" + empDOB1 + "</td></tr>");
-	  out.println("<tr><th>Gender :</th><td>" + empGender1 + "</td></tr>");
-	  out.println("<tr><th>Address :</th><td>" + empAddress1 + "</td></tr>");
-	  out.println("<tr><th>City :</th><td>" + empCity1 + "</td></tr>");
-	  out.println("<tr><th>State :</th><td>" + empState1 + "</td></tr>");
-	  out.println("<tr><th>Pin :</th><td>" + empPin1 + "</td></tr>");
-	  out.println("<tr><th>Join Date :</th><td>" + empJoinDate1 + "</td></tr>");
-	  out.println("<tr><th>Qualification :</th><td>" + empQualification1 + "</td></tr>");
+	 
+	  out.println(id11);
+	  out.println( name1 );
+	  out.println(email1);
+	  out.println(empPhone1);
+	  out.println(empDept1);
+	  out.println(empPosition1 );
+	  out.println(empSalary1 );
+	  out.println(empDOB1 );
+	  out.println(empGender1);
+	  out.println(empAddress1 );
+	  out.println(empCity1);
+	  out.println(empState1);
+	  out.println(empPin1);
+	  out.println(empJoinDate1);
+	  out.println(empQualification1);
 	  
 	  
-	  out.println("</table>");
-
-	  out.println("</body></html>");
-
+	 
 	  
 	  
 }
